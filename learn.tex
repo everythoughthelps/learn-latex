@@ -1,4 +1,5 @@
 \documentclass{beamer}
+\usepackage{graphicx}
 \usepackage{geometry}
 \geometry{left=1cm,right=1cm,top=1cm,bottom=1cm}
 
@@ -7,6 +8,8 @@
 \useoutertheme[]{tree}
 \usecolortheme[]{crane}
 \usefonttheme[]{}
+
+\logo{\includegraphics[height=1cm]{img/timg.jpeg}}
 
 \title{my first beamer by \LaTeX}
 \subtitle{this is what the subtitile looks like}
@@ -46,6 +49,11 @@
 \subsection{subsection}
     \begin{frame}
         subsection
+        \begin{figure}
+        %\centering
+        \includegraphics[height=3cm]{img/sfm.png}
+        \caption{picture}
+        \end{figure}
     \end{frame}
 \subsection{subsection2}
     \begin{frame}
